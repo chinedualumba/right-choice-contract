@@ -1,0 +1,83 @@
+body{
+    .container {
+        @sectionBorder: 1px solid gray;
+        @defaultMarginSpacing: 10px;
+
+        // Navigation section styles
+        .navigation{
+            border: @sectionBorder;
+            margin: @defaultMarginSpacing 0;
+
+            > ul {
+                display: block;
+                overflow: hidden;
+                margin: @defaultMarginSpacing 0;
+
+                > li {
+                    width: 50%;
+                    display: inline-block;
+                    float: left;
+                }
+            } 
+        }
+
+        // Jumbotron section styles
+        .jumbotron {
+            border: @sectionBorder;
+            border-radius: 0;
+            margin-bottom: @defaultMarginSpacing;
+
+            .jumbotronImage {
+                width: 90%;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .jumbotronText {
+                margin-top: @defaultMarginSpacing;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        //Services section
+        
+        .services {
+            height: 400px;
+            border: @sectionBorder;
+            margin-bottom: @defaultMarginSpacing;
+
+            padding: @defaultMarginSpacing;
+
+            .servicesSectionHeader {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            > section {
+                border: 0;
+                
+                 > .servicesSubHeader {
+                    font-weight: bold;
+                    margin: @defaultMarginSpacing 0;
+                }
+            }
+        }
+
+
+        //About Us section
+        .aboutUs {
+            border: @sectionBorder;
+            margin-bottom: @defaultMarginSpacing;
+            padding: @defaultMarginSpacing;
+
+            .aboutUsSectionHeader {
+                font-size: 2rem;
+                text-align: center;
+                padding-bottom: @defaultMarginSpacing;
+            }
+        }
+    }
+
+    
+}

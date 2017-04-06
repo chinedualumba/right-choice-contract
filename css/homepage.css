@@ -1,0 +1,56 @@
+body .container .navigation {
+  border: 1px solid gray;
+  margin: 10px 0;
+}
+body .container .navigation > ul {
+  display: block;
+  overflow: hidden;
+  margin: 10px 0;
+}
+body .container .navigation > ul > li {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+body .container .jumbotron {
+  border: 1px solid gray;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+body .container .jumbotron .jumbotronImage {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+body .container .jumbotron .jumbotronText {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+body .container .services {
+  height: 400px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+body .container .services .servicesSectionHeader {
+  font-size: 2rem;
+  text-align: center;
+}
+body .container .services > section {
+  border: 0;
+}
+body .container .services > section > .servicesSubHeader {
+  font-weight: bold;
+  margin: 10px 0;
+}
+body .container .aboutUs {
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+body .container .aboutUs .aboutUsSectionHeader {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
