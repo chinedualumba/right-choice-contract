@@ -1,0 +1,17 @@
+#header-nav {
+    background: url("../images/header-background.jpg");
+    height: 200px;
+    border: 0;
+    border-radius: 0;
+    /*padding-left: 15px;
+    padding-right:15px;*/
+
+}
+
+#logo-img {
+    background: url("../images/logo-image.png");
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    background-repeat: no-repeat;
+}
