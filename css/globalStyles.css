@@ -6,3 +6,60 @@
 #header-nav .otherclass {
   color: black;
 }
+
+.img-responsive {
+  margin-top: 40px;
+}
+
+body .header{
+   background: url("../images/header-background.jpg");
+}
+
+
+body #company-name {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#company-name h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 4em;
+  text-align: center;
+  color: black;
+}
+
+#company-name p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+}
+
+body #side-line{
+  width: 2px;
+  height: 150px;
+}
+
+nav{
+  background-color: #f3f3f3;
+}
+
+nav ul li {
+  display: inline;
+  color: #666;
+  padding: 16px;
+  ;
+
+}
+
+.services .servicesSectionHeader p {
+  font-size: 2em;
+  text-align: center;
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: none;
+}
