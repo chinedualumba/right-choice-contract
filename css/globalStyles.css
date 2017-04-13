@@ -12,7 +12,10 @@
 }
 
 body .header{
-   background: url("../images/header-background.jpg");
+   background: linear-gradient(to right, rgb(142, 20, 99), #666);
+   /*background-image: url("../images/header-background2.jpg");*/
+   opacity: 0.7;
+   margin-top: 0;
 }
 
 
@@ -48,12 +51,27 @@ nav ul li {
   display: inline;
   color: #666;
   padding: 16px;
+  text-shadow: 1px 1px black;
   ;
 
 }
 
+#services hr{
+  width: 50%;
+  align-self: center;
+  background-color: #666;
+}
+
 .services .servicesSectionHeader p {
   font-size: 2em;
+  text-align: center;
+}
+
+#interior, #interiorservices{
+  text-align: center;
+}
+
+#exterior, #exteriorservices{
   text-align: center;
 }
 
