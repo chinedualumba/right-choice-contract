@@ -1,7 +1,98 @@
-﻿body {
+﻿@headerBorderStyle: 6px solid wheat;
+@headerTextColor: white;
+@headerTextMarginLeft: 15px;
+@headerDefaultPaddingValue: 15px;
+@headerDivMarginTop: 20px;
+
+//Regular screen styles
+body {
+        
     .header{
-        height: 250px;
+        display: inline-block;
+        padding-left: @headerDefaultPaddingValue;
+        padding-bottom: 5px;
         margin: 10px 0;
+
+        // Apply font family to all text in header
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        div#logo-image {
+            padding-right: 0;
+            padding-left: 0;
+            margin-top: @headerDivMarginTop;
+
+            a {
+                .img-responsive {
+                    width: 100%;
+                }
+            }
+        }
+
+        div#company-name {
+            border-left: @headerBorderStyle;
+            padding-left: 0;
+            padding-bottom: @headerDefaultPaddingValue;
+            color: @headerTextColor;
+
+            margin-top: @headerDivMarginTop;
+
+            a {
+                margin-left: @headerTextMarginLeft;
+                display: block;
+                color: @headerTextColor;
+
+                h1{
+                    font-size: 5.33em;
+                }
+            }
+
+            hr {
+                border: @headerBorderStyle;
+                margin-bottom: 2px;
+            }
+
+            span {
+                margin-left: @headerTextMarginLeft;
+                font-size: 1em;
+            }
+        }
     }
-    
 }
+
+//small screen styles
+@media (min-width: 768px) {
+    body {
+        .header{
+
+            div#company-name {
+                
+
+                a {
+                    h1{
+                        /*Make the font size smaller*/
+                        font-size: 4.84em;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+
+//Big Screen styles
+@media (min-width: 992px) {
+    body {
+        .header{
+            div#company-name {
+                
+                a {
+                    h1{
+                        /*Make the font size smaller*/
+                        font-size: 5.46em;
+                    }
+                }
+            }
+        }
+    }
+}
+

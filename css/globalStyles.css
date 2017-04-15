@@ -1,87 +1,54 @@
 @import url("Controls/header.css");
 @import url("Controls/footer.css");
+/*ONLY USE THE LESS FILE - DONT USE THE CSS FILE DIRECTLY*/
 #header-nav {
   color: red;
 }
 #header-nav .otherclass {
   color: black;
 }
-
-.img-responsive {
-  margin-top: 40px;
+body .header {
+  background: linear-gradient(to right, #8e1463, #666);
+  /*background-image: url("../images/header-background2.jpg");*/
+  opacity: 0.7;
+  margin-top: 0;
 }
-
-body .header{
-   background: linear-gradient(to right, rgb(142, 20, 99), #666);
-   /*background-image: url("../images/header-background2.jpg");*/
-   opacity: 0.7;
-   margin-top: 0;
-}
-
-
-body #company-name {
-  text-align: left;
-  margin-top: 20px;
-}
-
-#company-name h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 4em;
-  text-align: center;
-  color: black;
-}
-
-#company-name p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1em;
-  text-align: center;
-  color: black;
-}
-
-body #side-line{
+body #side-line {
   width: 2px;
   height: 150px;
 }
-
-nav{
+nav {
   background-color: #f3f3f3;
 }
-
 nav ul li {
   display: inline;
   color: #666;
   padding: 16px;
   text-shadow: 1px 1px black;
-  ;
-
 }
-
-#services hr{
+#services hr {
   width: 50%;
   align-self: center;
   background-color: #666;
 }
-
 .services .servicesSectionHeader p {
   font-size: 2em;
   text-align: center;
 }
-
-#interior, #interiorservices{
+#interior,
+#interiorservices {
   text-align: center;
 }
-
-#exterior, #exteriorservices{
+#exterior,
+#exteriorservices {
   text-align: center;
 }
-
 a:active,
 a:hover,
 a:focus {
   color: #23527c;
   text-decoration: none;
 }
-
 #message {
-height: 85px;
+  height: 85px;
 }

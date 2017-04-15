@@ -1,0 +1,22 @@
+{
+  "name": "rightchoicecontract",
+  "version": "1.0.0",
+  "description": "A website for the Right Choice Plastering company, with Justin Kehler as the Product Owner and Product Sponsor",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedualumba/rightchoicecontract.git"
+  },
+  "author": "Chinedu and Chibuzor Alumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinedualumba/rightchoicecontract/issues"
+  },
+  "homepage": "https://github.com/chinedualumba/rightchoicecontract#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
