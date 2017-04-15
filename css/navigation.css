@@ -1,23 +1,23 @@
-body .container .navigation {
+.container .navigation {
   border: 1px solid gray;
   margin: auto;
   margin-bottom: 10px;
 }
-body .container .navigation > ul {
+.container .navigation > ul {
   display: block;
   overflow: hidden;
   margin: 10px 0;
   text-align: center;
 }
-body .container .navigation > ul > li {
+.container .navigation > ul > li {
   width: 50%;
   display: inline-block;
   float: left;
 }
-body .container nav {
+.container nav {
   background-color: #f3f3f3;
 }
-body .container nav ul li {
+.container nav ul li {
   display: inline;
   color: #666;
   padding: 16px;
