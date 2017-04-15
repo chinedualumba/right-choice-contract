@@ -1,0 +1,13 @@
+body > section.services {
+  padding-bottom: 15px;
+}
+body > section.services hr {
+  width: 100%;
+}
+body > section.services > h2 {
+  text-align: center;
+}
+body > section.services > div header {
+  font-weight: bold;
+  font-size: 1.4em;
+}
