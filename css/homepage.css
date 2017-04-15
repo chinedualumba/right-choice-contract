@@ -1,7 +1,7 @@
 body .container .navigation {
   border: 1px solid #e7e7e7;
   margin: auto;
-  width: 50%;
+  /*width: 50%;*/
   margin-bottom: 10px;
 }
 body .container .navigation > ul {

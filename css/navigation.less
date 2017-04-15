@@ -1,0 +1,40 @@
+body {
+
+    .container{
+         @sectionBorder: 1px solid gray;
+        @defaultMarginSpacing: 10px;
+
+        .navigation{
+            border: @sectionBorder;
+            margin: auto;
+            margin-bottom: 10px; 
+
+            > ul {
+                display: block;
+                overflow: hidden;
+                margin: @defaultMarginSpacing 0;
+                text-align: center;
+
+                > li {
+                    width: 50%;
+                    display: inline-block;
+                    float: left;
+                }
+            } 
+        }
+
+         nav{
+                background-color: #f3f3f3;
+                }
+
+                nav ul li {
+                display: inline;
+                color: #666;
+                padding: 16px;
+                // text-shadow: 1px 1px black;
+
+                }
+
+        
+    }
+}
