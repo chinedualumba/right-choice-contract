@@ -1,4 +1,10 @@
 body .footer {
   border: 1px solid gray;
   margin-bottom: 20px;
+  background: #4e4c4c;
+  padding: 22px 0;
+  color: white;
+}
+body #copyright {
+  text-align: center;
 }

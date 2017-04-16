@@ -2,7 +2,6 @@ body .header {
   display: inline-block;
   padding-left: 15px;
   padding-bottom: 5px;
-  margin: 10px 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body .header div#logo-image {
