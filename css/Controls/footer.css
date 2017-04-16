@@ -8,3 +8,6 @@ body .footer {
 body #copyright {
   text-align: center;
 }
+body #copyright > a {
+  color: white;
+}
