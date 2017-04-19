@@ -13,7 +13,7 @@ body .header div#logo-image a .img-responsive {
   width: 100%;
 }
 body .header div#company-name {
-  border-left: 6px solid wheat;
+  border-left: 6px solid black;
   padding-left: 0;
   padding-bottom: 15px;
   color: white;
@@ -28,7 +28,7 @@ body .header div#company-name a h1 {
   font-size: 5.33em;
 }
 body .header div#company-name hr {
-  border: 6px solid wheat;
+  border: 6px solid black;
   margin-bottom: 2px;
 }
 body .header div#company-name span {

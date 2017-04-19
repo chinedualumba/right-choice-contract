@@ -7,10 +7,21 @@
 #header-nav .otherclass {
   color: black;
 }
-body .header {
+body {
   background: linear-gradient(to right, #042f54, #666);
   /*background-image: url("../images/header-background2.jpg");*/
   margin-top: 0;
+}
+body .header {
+  background: white;
+  /*background-image: url("../images/header-background2.jpg");*/
+  margin-top: 0;
+}
+body .header div#company-name a {
+  color: black;
+}
+body .header div#company-name span {
+  color: black;
 }
 body #side-line {
   width: 2px;
