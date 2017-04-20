@@ -58,6 +58,9 @@ nav ul li {
 #about-us {
   background-color: #f3f3f3;
 }
+#contact {
+  background-color: #f3f3f3;
+}
 a:active,
 a:hover,
 a:focus {
@@ -65,5 +68,9 @@ a:focus {
   text-decoration: none;
 }
 #message {
-  height: 85px;
+  height: 130px;
+  width: 95%;
+}
+.text-center {
+  margin-bottom: 40px;
 }
