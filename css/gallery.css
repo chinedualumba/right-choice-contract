@@ -3,6 +3,7 @@ body > section.services {
 }
 body > section.services hr {
   width: 100%;
+  margin: 0 auto;
 }
 body > section.services > h2 {
   text-align: center;
@@ -10,4 +11,7 @@ body > section.services > h2 {
 body > section.services > div header {
   font-weight: bold;
   font-size: 1.4em;
+}
+body > section.services > div > section {
+  padding: 10px 30px;
 }

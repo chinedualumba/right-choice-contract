@@ -1,25 +1,11 @@
+//Define global variables
+@sectionHeaderFontSize: 3rem;
+@subSectionHeaderFontSize: 2rem;
+        
 body{
     .container {
         @sectionBorder: 1px solid gray;
         @defaultMarginSpacing: 10px;
-
-        // Navigation section styles
-        .navigation{
-            border: @sectionBorder;
-            margin: @defaultMarginSpacing 0;
-
-            > ul {
-                display: block;
-                overflow: hidden;
-                margin: @defaultMarginSpacing 0;
-
-                > li {
-                    width: 50%;
-                    display: inline-block;
-                    float: left;
-                }
-            } 
-        }
 
         // Jumbotron section styles
         .jumbotron {
@@ -43,25 +29,35 @@ body{
         //Services section
         
         .services {
-            height: 400px;
             border: @sectionBorder;
             margin-bottom: @defaultMarginSpacing;
-
+            
             padding: @defaultMarginSpacing;
 
             .servicesSectionHeader {
-                font-size: 2rem;
+                font-size: @sectionHeaderFontSize;
                 text-align: center;
             }
 
-            > section {
-                border: 0;
-                
-                 > .servicesSubHeader {
-                    font-weight: bold;
-                    margin: @defaultMarginSpacing 0;
-                }
+            > hr {
+                margin: 0 auto;
             }
+
+            > .servicesContent{                
+                overflow: hidden;
+
+                > section {
+                    float: left;
+                    width: 50%;
+                    border: 0;
+                    
+                    > .servicesSubHeader {
+                        font-weight: bold;
+                        margin: @defaultMarginSpacing 0;
+                        font-size: @subSectionHeaderFontSize;
+                    }
+                }
+            }            
         }
 
 
@@ -72,7 +68,7 @@ body{
             padding: @defaultMarginSpacing;
 
             .aboutUsSectionHeader {
-                font-size: 2rem;
+                font-size: @sectionHeaderFontSize;
                 text-align: center;
                 padding-bottom: @defaultMarginSpacing;
             }

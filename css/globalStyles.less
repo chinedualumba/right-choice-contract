@@ -3,6 +3,9 @@
 
 /*ONLY USE THE LESS FILE - DONT USE THE CSS FILE DIRECTLY*/
 
+//Define global variables
+@pageTextFontSize: 1.7rem;
+
 #header-nav{
     color: red;
 
@@ -21,29 +24,29 @@ body{
    /*background-image: url("../images/header-background2.jpg");*/
   //  opacity: 0.7;
    margin-top: 0;
+
+   //Set the default font size for all texts
+   font-size: @pageTextFontSize;
+
+   .btn, .form-control {
+      //Set the default font size for all texts
+      font-size: @pageTextFontSize;
+   }
+
+   //Make all headers have the same text color
+   header, h1, h2, h3 {
+     @headerTextColor: #666;
+     color: @headerTextColor;
+   }
 }
  
 body .header{
    background: white;
-   /*background-image: url("../images/header-background2.jpg");*/
-  //  opacity: 0.7;
+   
    margin-top: 0;
+
+   width: 100%;
 }
-
-body .header div#company-name a{
-  color: black;
-}
-
-body .header div#company-name span {
-    color: black;
-  }
-
-
-
-// body #company-name {
-//   text-align: left;
-//   margin-top: 20px;
-// }
 
 body #side-line{
   width: 2px;
@@ -108,4 +111,11 @@ width: 95%;
 
 .text-center{
   margin-bottom: 40px;
+}
+
+//What happens at a small width
+@media (max-width: 998px) {
+    .container {
+        width: 100%;
+    }
 }

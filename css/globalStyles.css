@@ -11,17 +11,22 @@ body {
   background: linear-gradient(to right, #042f54, #666);
   /*background-image: url("../images/header-background2.jpg");*/
   margin-top: 0;
+  font-size: 1.7rem;
+}
+body .btn,
+body .form-control {
+  font-size: 1.7rem;
+}
+body header,
+body h1,
+body h2,
+body h3 {
+  color: #666;
 }
 body .header {
   background: white;
-  /*background-image: url("../images/header-background2.jpg");*/
   margin-top: 0;
-}
-body .header div#company-name a {
-  color: black;
-}
-body .header div#company-name span {
-  color: black;
+  width: 100%;
 }
 body #side-line {
   width: 2px;
@@ -73,4 +78,9 @@ a:focus {
 }
 .text-center {
   margin-bottom: 40px;
+}
+@media (max-width: 998px) {
+  .container {
+    width: 100%;
+  }
 }

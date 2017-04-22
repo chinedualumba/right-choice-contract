@@ -2,6 +2,7 @@
   border: 1px solid gray;
   margin: auto;
   margin-bottom: 10px;
+  font-size: 3rem;
 }
 .container .navigation > ul {
   display: block;
@@ -12,7 +13,6 @@
 .container .navigation > ul > li {
   width: 50%;
   display: inline-block;
-  float: left;
 }
 .container nav {
   background-color: #f3f3f3;
