@@ -34,6 +34,9 @@ body .header div#company-name hr {
 body .header div#company-name span {
   margin-left: 15px;
 }
+body .header div#company-name #pun {
+  float: right;
+}
 @media (min-width: 768px) {
   body .header div#company-name {
     padding-bottom: 36px;
