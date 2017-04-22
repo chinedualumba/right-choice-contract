@@ -11,3 +11,6 @@ body #copyright {
 body #copyright > a {
   color: white;
 }
+body #copyright > a:hover {
+  color: #042f54;
+}

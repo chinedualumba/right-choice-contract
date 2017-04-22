@@ -13,37 +13,42 @@ body .header div#logo-image a .img-responsive {
   width: 100%;
 }
 body .header div#company-name {
-  border-left: 6px solid wheat;
+  border-left: 6px solid #666;
   padding-left: 0;
   padding-bottom: 15px;
-  color: white;
+  color: #666;
   margin-top: 20px;
 }
 body .header div#company-name a {
   margin-left: 15px;
   display: block;
-  color: white;
 }
 body .header div#company-name a h1 {
   font-size: 5.33em;
+  color: #666;
 }
 body .header div#company-name hr {
-  border: 6px solid wheat;
+  border: 6px solid #666;
   margin-bottom: 2px;
 }
 body .header div#company-name span {
   margin-left: 15px;
-  font-size: 1em;
 }
 @media (min-width: 768px) {
+  body .header div#company-name {
+    padding-bottom: 36px;
+  }
   body .header div#company-name a h1 {
     /*Make the font size smaller*/
-    font-size: 4.84em;
+    font-size: 8.67rem;
   }
 }
 @media (min-width: 992px) {
+  body .header div#company-name {
+    padding-bottom: 15px;
+  }
   body .header div#company-name a h1 {
     /*Make the font size smaller*/
-    font-size: 5.46em;
+    font-size: 7.5rem;
   }
 }

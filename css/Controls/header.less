@@ -1,5 +1,5 @@
-﻿@headerBorderStyle: 6px solid wheat;
-@headerTextColor: white;
+﻿@headerBorderStyle: 6px solid #666;
+@headerTextColor: #666;
 @headerTextMarginLeft: 15px;
 @headerDefaultPaddingValue: 15px;
 @headerDivMarginTop: 20px;
@@ -39,10 +39,11 @@ body {
             a {
                 margin-left: @headerTextMarginLeft;
                 display: block;
-                color: @headerTextColor;
+                // color: @headerTextColor;
 
                 h1{
                     font-size: 5.33em;
+                    color: @headerTextColor;
                 }
             }
 
@@ -53,7 +54,6 @@ body {
 
             span {
                 margin-left: @headerTextMarginLeft;
-                font-size: 1em;
             }
         }
     }
@@ -65,12 +65,12 @@ body {
         .header{
 
             div#company-name {
-                
+                padding-bottom: 36px;
 
                 a {
                     h1{
                         /*Make the font size smaller*/
-                        font-size: 4.84em;
+                        font-size: 8.67rem;
                     }
                 }
             }
@@ -84,11 +84,12 @@ body {
     body {
         .header{
             div#company-name {
-                
+                padding-bottom: @headerDefaultPaddingValue;
+
                 a {
                     h1{
                         /*Make the font size smaller*/
-                        font-size: 5.46em;
+                        font-size: 7.5rem;
                     }
                 }
             }

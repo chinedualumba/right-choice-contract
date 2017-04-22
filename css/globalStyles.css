@@ -7,10 +7,26 @@
 #header-nav .otherclass {
   color: black;
 }
-body .header {
+body {
   background: linear-gradient(to right, #042f54, #666);
   /*background-image: url("../images/header-background2.jpg");*/
   margin-top: 0;
+  font-size: 1.7rem;
+}
+body .btn,
+body .form-control {
+  font-size: 1.7rem;
+}
+body header,
+body h1,
+body h2,
+body h3 {
+  color: #666;
+}
+body .header {
+  background: white;
+  margin-top: 0;
+  width: 100%;
 }
 body #side-line {
   width: 2px;
@@ -47,6 +63,9 @@ nav ul li {
 #about-us {
   background-color: #f3f3f3;
 }
+#contact {
+  background-color: #f3f3f3;
+}
 a:active,
 a:hover,
 a:focus {
@@ -54,5 +73,14 @@ a:focus {
   text-decoration: none;
 }
 #message {
-  height: 85px;
+  height: 130px;
+  width: 95%;
+}
+.text-center {
+  margin-bottom: 40px;
+}
+@media (max-width: 998px) {
+  .container {
+    width: 100%;
+  }
 }
