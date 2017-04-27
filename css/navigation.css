@@ -22,3 +22,7 @@
   color: #666;
   padding: 16px;
 }
+.container nav ul li > span:hover,
+.container nav ul li span:active {
+  background-color: gainsboro;
+}
